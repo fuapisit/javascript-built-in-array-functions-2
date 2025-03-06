@@ -374,5 +374,13 @@ const bills = [
 ];
 
 // Start coding here
+function memberBills (){
+  return bills.member !== null;  
+}
+function filterOrdersWithMembers(bills) {
+  return bills.filter(memberBills);
+  }
+  
+const newBills = filterOrdersWithMembers(bills);
 
-const newBills;
+console.log(newBills);
