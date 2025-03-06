@@ -8,7 +8,7 @@ function updateCarCollection(carBrand) {
     return `New car collection is: ${carCollection}.`
   }
 
-  return `${carBrand} has already exists in position ${carIndex} of the car collection.`
+  return `${carBrand} has already exists in position ${carIndex + 1} of the car collection.`
 }
 
 //ผลลัพธ์ที่ควรได้จาก Example case
